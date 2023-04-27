@@ -88,7 +88,7 @@ def el_dataframe(datos: dict) -> pd.Series():
 
 
 if __name__ == '__main__':
-    #procesar_datos()
+    procesar_datos()
     print('Resumen calificaciones (punto2):\n',analizar_notas(generar_calificaciones(20)))
     print('Datos ordenados y filtrados:\n', aprobados(generar_calificaciones(10)))
     print('Informacion Dataframe (punto 4):\n', el_dataframe(DATOS))
