@@ -56,3 +56,30 @@ Calcular la probabilidad de:
 a.- La bola es blanca y de la primera bolsa.
 b.- La bola es blanca.
 c.- Si la bola es negra, ¿cuál es la probabilidad de que sea de la segunda bolsa?
+
+
+Arbol de probabilidades
+
+
+
+
+primera bolsa 0,5   ----> bola negra 0,4
+                    ----> bola blanca 0,6
+
+
+segunda bolsa 0,5   ----> bola negra 0,66
+                    ----> bola blanca 0,34
+
+a) = 0,5 * 0,6 => 0,3 * 100 => 30% de probabilidades de que sea una bola blanca de la primera bolsa
+
+b)   P(blanca, negra) = 5/11 
+
+Arbol de probabilidades:
+
+bola negra 0,54     -----> primera bolsa 0,5
+                    -----> segunda bolsa 0,5
+
+bola blanca 0,46    -----> primera bolsa 0,5
+                    -----> segunda bolsa 0,5
+
+c) = 0,54 * 0,50 => 0,27 * 100 => 27% de probabilidades que sea de la segunda bolsa
